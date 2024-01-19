@@ -17,6 +17,9 @@ public class Device {
     @GeneratedValue
     private long id;
 
+    
+    private String status;
+
 
     private String deviceType;
 
